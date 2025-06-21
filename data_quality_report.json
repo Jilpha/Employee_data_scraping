@@ -1,0 +1,89 @@
+{
+  "total_records": 320,
+  "field_completeness": {
+    "employee_id": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "full_name": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "email": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "phone": {
+      "non_null_count": 126,
+      "completeness_percentage": 39.38
+    },
+    "gender": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "age": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "job_title": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "years_of_experience": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "salary": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "department": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "designation": {
+      "non_null_count": 320,
+      "completeness_percentage": 100.0
+    },
+    "hire_date": {
+      "non_null_count": 0,
+      "completeness_percentage": 0.0
+    }
+  },
+  "data_quality_metrics": {
+    "phone_numbers": {
+      "valid": 126,
+      "invalid_with_x": 194,
+      "validity_percentage": 39.38
+    },
+    "emails": {
+      "valid_format": 320,
+      "validity_percentage": 100.0
+    }
+  },
+  "designation_distribution": {
+    "Lead": {
+      "count": 100,
+      "percentage": 31.25
+    },
+    "Senior Data Engineer": {
+      "count": 99,
+      "percentage": 30.94
+    },
+    "Data Engineer": {
+      "count": 72,
+      "percentage": 22.5
+    },
+    "System Engineer": {
+      "count": 49,
+      "percentage": 15.31
+    }
+  },
+  "summary": {
+    "data_extraction_successful": true,
+    "total_records_processed": 320,
+    "average_age": 31.5875,
+    "average_experience": 7.6875,
+    "average_salary": 10175.0
+  }
+}
